@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  flex-direction: column;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  flex-direction: row;
+}
+
+form label {
+  margin-right: 1em;
+}
+
+form input[type="text"] {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: thin;
+  border-color: #eee;
+  border-style: solid;
+  margin-right: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#job-listings {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: center;
+}
+
+#job-listings ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#job-listings li {
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#job-listings h2 {
+  align-self: center;
+}
+
+#job-listings a {
+  text-decoration: none;
+  color: white;
+  margin-top: 1em;
+  display: inline-block;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+#job-listings a:hover {
+  background-color: #3e8e41;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1em;
+  text-align: center;
+}

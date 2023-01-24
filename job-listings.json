@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "Google",
+    "location": "Mountain View, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Front-end Developer",
+    "company": "Facebook",
+    "location": "Menlo Park, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "Amazon",
+    "location": "Seattle, WA",
+    "type": "Part-time"
+  },
+  {
+    "title": "Product Manager",
+    "company": "Apple",
+    "location": "Cupertino, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "Netflix",
+    "location": "Los Gatos, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Tesla",
+    "location": "Palo Alto, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Airbnb",
+    "location": "San Francisco, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "NVIDIA",
+    "location": "Santa Clara, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Product Marketing Manager",
+    "company": "Dropbox",
+    "location": "San Francisco, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Infrastructure Engineer",
+    "company": "Atlassian",
+    "location": "Sydney, Australia",
+    "type": "Full-time"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "Slack",
+    "location": "San Francisco, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Cisco",
+    "location": "San Jose, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "UX Designer",
+    "company": "Adobe",
+    "location": "San Jose, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Cloud Engineer",
+    "company": "AWS",
+    "location": "Seattle, WA",
+    "type": "Full-time"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "Docker",
+    "location": "San Francisco, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Database Administrator",
+    "company": "Oracle",
+    "location": "Redwood City, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Network Engineer",
+    "company": "Juniper Networks",
+    "location": "Sunnyvale, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "Business Analyst",
+    "company": "SAP",
+    "location": "Walldorf, Germany",
+    "type": "Full-time"
+  },
+  {
+    "title": "Product Manager",
+    "company": "Zoom",
+    "location": "San Jose, CA",
+    "type": "Full-time"
+  },
+  {
+    "title": "QA Engineer",
+    "company": "Asana",
+    "location": "San Francisco, CA",
+    "type": "Full-time"
+  }
+]
