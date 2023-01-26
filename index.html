@@ -19,12 +19,15 @@
       </nav>
     </header>
     <main>
-      <h1>Welcome to the Job Portal</h1>
-      <form>
-        <label for="job-search">Search for jobs:</label>
-        <input type="text" id="job-search" name="job-search">
+      <h1>Welcome to the Job Portal</h1>      
+      <form id="search-form">
+        <label for="keyword">Keyword:</label>
+        <input type="text" id="keyword" placeholder="Enter keyword">
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Enter location">
         <button type="submit">Search</button>
       </form>
+
     <section id="job-listings">          
     </section>
     <script src="app.js"></script>

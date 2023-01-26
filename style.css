@@ -94,12 +94,12 @@ form button[type="submit"] {
 }
 
 #job-listings li {
-  width: 30%;
   margin: 1em;
   padding: 1em;
   background-color: #f1f1f1;
   border-radius: 5px;
   text-align: center;
+  min-width: 491px;
 }
 
 #job-listings h2 {
@@ -120,8 +120,8 @@ form button[type="submit"] {
 }
 
 #job-listings a:hover {
-  background-color: #3e8e41;
-}
+  background-color: #3e8e41;}
+
 
 footer {
   background-color: #f1f1f1;
