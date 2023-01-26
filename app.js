@@ -2,8 +2,9 @@ function fetchJobsFromServer() {
 fetch('job-listings.json')
   .then(response => response.json())
   .then(data => {  
-    jobListings = data;
-    displayJobListings();   
+    jobListings = data;    
+    displayJobListings(); 
+    populateLocationDropdown(data);  
   });
 }
 
@@ -30,11 +31,22 @@ function displayJobListings() {
   jobListingsContainer.innerHTML = jobListingsHTML;
 }
 
+function populateLocationDropdown(data) {
+  const locations = Array.from(new Set(data.map(job => job.location)));
+  const locationSelect = document.getElementById("location-select");
+  for (let i = 0; i < locations.length; i++) {
+    let option = document.createElement("option");
+    option.value = locations[i];
+    option.text = locations[i];
+    locationSelect.appendChild(option);
+  }
+}
+
 let form = document.getElementById("search-form");
 form.addEventListener("submit", function(event) {
   event.preventDefault();
   let keyword = document.getElementById("keyword").value;
-  let location = document.getElementById("location").value;
+    const location = document.getElementById("location-select").value;
   console.log(keyword);
   console.log(location);
   searchJobs(keyword, location);
